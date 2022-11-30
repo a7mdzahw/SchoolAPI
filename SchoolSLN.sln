@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servcie", "Servcie", "{932E6DF5-A961-44E1-9125-A7BE1C08EA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPI", "SchoolAPI\SchoolAPI.csproj", "{57FD8011-B6E5-4294-944C-E620D4E6C4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C064C5EF-4699-4C70-A104-FD5EBE2777DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57FD8011-B6E5-4294-944C-E620D4E6C4D6} = {932E6DF5-A961-44E1-9125-A7BE1C08EA4A}
+		{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1} = {C064C5EF-4699-4C70-A104-FD5EBE2777DA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57FD8011-B6E5-4294-944C-E620D4E6C4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FD8011-B6E5-4294-944C-E620D4E6C4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FD8011-B6E5-4294-944C-E620D4E6C4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FD8011-B6E5-4294-944C-E620D4E6C4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33E9ED0-5BB9-46D2-8E51-1B547D2F67A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
