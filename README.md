@@ -1,0 +1,2 @@
+# SchoolAPI
+School API
